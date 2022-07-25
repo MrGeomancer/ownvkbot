@@ -14,3 +14,5 @@ for event in longpoll.listen():
         print(event.message.get('text'))
         print(event.chat_id)
         sendmsg()
+
+# хуй?
